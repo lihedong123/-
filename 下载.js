@@ -24,7 +24,7 @@ toolDownload: (param) => request.get(`${apiUrl}/tool/download?urlKey=${param.url
 
 
 /**
- * 给一个二进制文件流导出(下载)一个文件
+ * 给一个二进制文件流导出(下载)一个文件 
  * 
  * let projectId = getURLhandler(route.path).projectId;
     let projectTypeId = getURLhandler(route.path).projectTypeId;
